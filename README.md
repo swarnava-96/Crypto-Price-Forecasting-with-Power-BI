@@ -3,7 +3,7 @@
 ### Goal: To create an interactive dashboard using MS Power BI Desktop as a POC to forecast crypto prices. 
 
 ### About the data set: 
-The data set is downloaded from Kaggle[link](https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory). 
+The data set is downloaded from Kaggle[[link](https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory)]. 
 The dataset has one csv file for each currency. Price history is available on a daily basis from April 28, 2013. 
 This dataset has the historical price information of some of the top crypto currencies by market capitalization.
 
@@ -28,21 +28,25 @@ Some of the questions which could be inferred from this dataset are:
 project are: BinanceCoin, Bitcoin, Dogecoin, Ethereum, NEM, Stellar and XRP. The folder "Datafile" contains all the datasets
 including the combined csv file.
 2.  The first step was to combine all the seven csv files into one combined csv file as per the requirement of Power BI.
-Since, I use Excel 2007, so I don't have the Power Query tab inside my Data. So, I have used Pandas to combine all the csv's
+Since, I use Excel 2007, so I don't have the Power Query tab inside my Data ribbon. So, I have used Pandas to combine all the csv's
 from my folder. File, "Data Preprocessing.ipynb" contains the Python codes. I have also performed some basic Exploratory Data 
 Analysis using Python in order to understand the data well.
 3. The second step is to load the combined dataset into Power BI Desktop.
 4. After loading the data into Power BI Desktop, the first step is to change the values of the features "High", "Low", "Open",
 "Close" and "Marketcap" into currency.
-5. Slicer was made showing the names of the seven crypto currency name.
+5. Slicer was made showing the names of the seven crypto currencies.
 6. A custom column(Year) was added for extracting the year from the date column using the formula:
+
 ```Date.Year([Date])```
+
 8.  Line chart was plotted showing Market Capital with time. From this chart we can clearly see the rise in Bitcoin during the period
 2020-21. 
 9. Forecasting of Market Capital for crypto currency was done for the next 365 days.
 10. Cards were made showing features like High, Low, Average, Volume and Market Capitalization.
 11. Average was calculated by creating a custom column and using the formula:
+
 ```([High]+[Low])/2```
+
 12. In the second page of the report two line charts were plotted showing High vs Low by date and Open vs Close by date.
 
 
