@@ -45,7 +45,7 @@ Analysis using Python in order to understand the data well.
 10. Cards were made showing features like High, Low, Average, Volume and Market Capitalization.
 11. Average was calculated by creating a custom column and using the formula:
 
-   ```([High]+[Low])/2```
+    ```([High]+[Low])/2```
 
 12. In the second page of the report two line charts were plotted showing High vs Low by date and Open vs Close by date.
 
