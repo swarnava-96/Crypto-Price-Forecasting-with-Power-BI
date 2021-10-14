@@ -37,7 +37,7 @@ Analysis using Python in order to understand the data well.
 5. Slicer was made showing the names of the seven crypto currencies.
 6. A custom column(Year) was added for extracting the year from the date column using the formula:
 
-```Date.Year([Date])```
+   ```Date.Year([Date])```
 
 8.  Line chart was plotted showing Market Capital with time. From this chart we can clearly see the rise in Bitcoin during the period
 2020-21. 
@@ -45,7 +45,7 @@ Analysis using Python in order to understand the data well.
 10. Cards were made showing features like High, Low, Average, Volume and Market Capitalization.
 11. Average was calculated by creating a custom column and using the formula:
 
-```([High]+[Low])/2```
+   ```([High]+[Low])/2```
 
 12. In the second page of the report two line charts were plotted showing High vs Low by date and Open vs Close by date.
 
