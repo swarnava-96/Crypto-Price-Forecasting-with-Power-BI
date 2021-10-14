@@ -3,7 +3,7 @@
 ### Goal: To create an interactive dashboard using MS Power BI Desktop as a POC to forecast crypto prices. 
 
 ### About the data set: 
-The data set is downloaded from Kaggle[[link](https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory)]. 
+The data set is downloaded from [Kaggle](https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory)]. 
 The dataset has one csv file for each currency. Price history is available on a daily basis from April 28, 2013. 
 This dataset has the historical price information of some of the top crypto currencies by market capitalization.
 
